@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" type="text/css" />
+
+    <title>Cookies</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="createUser">Create user</h1>
+      <form action="/login" method="POST">
+        <div>
+          <label for="usernameInput">Username</label>
+          <input type="text" name="usernameInput" />
+        </div>
+        <br /><br />
+        <div>
+          <label for="passsword">Password</label>
+          <input type="passwordInput" name="passwordInput" id="" />
+        </div>
+        <br /><br />
+        <button type="submit">Login</button>
+      </form>
+    </div>
+
+    <script src="./app.js" type="module"></script>
+  </body>
+</html>
